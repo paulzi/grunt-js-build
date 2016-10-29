@@ -51,7 +51,7 @@ Example of _config.js:
 ```javascript
 module.exports = function (grunt, dest, name) {
     return {
-        concat: ['../_includes/EventObject.js', 'main.js', ''*.js'],
+        concat: ['../_includes/EventObject.js', 'main.js', '*.js'],
         umd: {
             objectToExport: 'Example',
             amdModuleId: 'example',
