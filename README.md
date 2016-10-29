@@ -48,6 +48,7 @@ module.exports = function(grunt) {
 `_config.js` - you can specify custom concat order (or concat external files), also you must define UMD module params
 
 Example of _config.js:
+```javascript
 module.exports = function (grunt, dest, name) {
     return {
         concat: ['../_includes/EventObject.js', 'main.js', ''*.js'],
@@ -61,5 +62,6 @@ module.exports = function (grunt, dest, name) {
         }
     };
 };
+```
 
 See UMD config here: (https://github.com/bebraw/grunt-umd)[https://github.com/bebraw/grunt-umd]
