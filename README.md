@@ -2,6 +2,14 @@
 
 Concat all files in each folder in src, and make umd module.
 
+## install
+
+```sh
+npm install grunt-js-build
+```
+
+## Usage
+
 Example of structure:
 ```
 frontend/
