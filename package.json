@@ -1,6 +1,6 @@
 {
   "name": "grunt-js-build",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple build js bundles by folder",
   "main": "tasks/js-build.js",
   "keywords": ["grunt"],
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/paulzi/grunt-js-build.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-umd": "^2.3.6"
