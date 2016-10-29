@@ -64,4 +64,4 @@ module.exports = function (grunt, dest, name) {
 };
 ```
 
-See UMD config here: (https://github.com/bebraw/grunt-umd)[https://github.com/bebraw/grunt-umd]
+See UMD config here: https://github.com/bebraw/grunt-umd
